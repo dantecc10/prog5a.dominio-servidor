@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <script src="../JavaScript/CambiarTema.js"></script>
+    <script src="JavaScript/CambiarTema.js"></script>
     <!--Encabezado (no mover)--> <br>
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
