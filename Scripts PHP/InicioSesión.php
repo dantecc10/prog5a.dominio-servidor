@@ -10,8 +10,7 @@ if (!empty($_POST['InicioSesión'])) {
             $_SESSION['Nombre'] = $datos->Nombre;
             $_SESSION['Apellidos'] = $datos->Apellidos;
             $_SESSION['Usuario'] = $datos->Usuario;
-            $_SESSION['Calificación'] = $datos->Calificación;
-            header("location: ../Exámenes/ExamenLiteratura.php");
+            header("location: Acceso.php");
         } else {
             echo "<div>Acceso denegado<div>";
         }
