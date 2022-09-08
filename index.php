@@ -59,8 +59,8 @@
 
             </div>
             <?php
-            include "Modelo/ConexiónSeguridad.php";
-            //include "Controlador/controlador_login_tercero.php";
+            include "Scripts PHP/ConexiónUsuarios.php";
+            include "Scripts PHP/InicioSesión.php";
             ?>
 
             <div class="container" style="background-color:#f1f1f1">
