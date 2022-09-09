@@ -21,7 +21,7 @@
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
-                <h1>Inicio</h1> <a href="index.php"> <img id="Logo" src="IMG/FAVICON.PNG" alt="prog5a.castelancarpinteyro.club">
+                <h1>PROG5A</h1> <a href="index.php"> <img id="Logo" src="IMG/FAVICON.PNG" alt="prog5a.castelancarpinteyro.club">
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
