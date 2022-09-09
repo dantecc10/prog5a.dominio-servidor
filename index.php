@@ -17,11 +17,11 @@
 </head>
 
 <body>
+    <script src="JavaScript/CambiarTema.js"></script>
     <?php
     include "Scripts PHP/ConexiónUsuarios.php";
     include "Scripts PHP/InicioSesión.php";
     ?>
-    <script src="JavaScript/CambiarTema.js"></script>
     <div id="DivInicioSesión" class="modal">
         <form class="modal-content animate" action="" method="post">
             <div class="imgcontainer">
