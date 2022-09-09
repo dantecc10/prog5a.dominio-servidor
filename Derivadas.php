@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="Derivadas_simples.js"></script>
+    
 </body>
 </html>
