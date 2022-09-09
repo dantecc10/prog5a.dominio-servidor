@@ -38,7 +38,7 @@
             <tr>
                 <td>
                     <?php
-                    echo $i++;
+                    echo $row['ID'];
                     ?>
                 </td>
                 <td>
