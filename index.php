@@ -16,28 +16,6 @@
 </head>
 
 <body>
-    <script src="JavaScript/CambiarTema.js"></script>
-    <!--Encabezado (no mover)--> <br>
-    <header id="Encabezado">
-        <div id="Contenedor-Encabezado">
-            <div id="Contenido-Encabezado">
-                <h1>PROG5A</h1> <a href="index.php"> <img id="Logo" src="IMG/SS SUITE-1.png" alt="prog5a.castelancarpinteyro.club">
-                </a>
-                <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
-                    <div class="Contenido-Desplegable">
-                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
-                        <a href="ProgramasPC.php">Programas avanzados para PC</a>
-                        <a href="AcercaDe.php">Acerca de...</a>
-                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
-                        <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="Encabezado-Superior"></div>
-        <div id="Encabezado-Inferior"></div>
-    </header>
-
     <div id="DivInicioSesión" class="modal">
         <form class="modal-content animate" action="" method="post">
             <div class="imgcontainer">
@@ -69,6 +47,28 @@
             </div>
         </form>
     </div>
+    <script src="JavaScript/CambiarTema.js"></script>
+    <!--Encabezado (no mover)--> <br>
+    <header id="Encabezado">
+        <div id="Contenedor-Encabezado">
+            <div id="Contenido-Encabezado">
+                <h1>PROG5A</h1> <a href="index.php"> <img id="Logo" src="IMG/SS SUITE-1.png" alt="prog5a.castelancarpinteyro.club">
+                </a>
+                <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
+                    <div class="Contenido-Desplegable">
+                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
+                        <a href="ProgramasPC.php">Programas avanzados para PC</a>
+                        <a href="AcercaDe.php">Acerca de...</a>
+                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
+                        <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Encabezado-Superior"></div>
+        <div id="Encabezado-Inferior"></div>
+    </header>
+
     <h2 id="IndicaArtículos">Mi página de inicio</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
