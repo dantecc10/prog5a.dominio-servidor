@@ -13,9 +13,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROG5A - Inicio</title>
+
 </head>
 
 <body>
+    <?php
+    include "Scripts PHP/Conexi%C3%B3nUsuarios.php";
+    include "Scripts PHP/InicioSesi%C3%B3n.php";
+    ?>
     <div id="DivInicioSesión" class="modal">
         <form class="modal-content animate" action="" method="post">
             <div class="imgcontainer">
@@ -37,10 +42,7 @@
                 </label>
                 !-->
             </div>
-            <?php
-            include "Scripts PHP/Conexi%C3%B3nUsuarios.php";
-            include "Scripts PHP/InicioSesi%C3%B3n.php";
-            ?>
+
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('DivInicioSesión').style.display='none'" class="BotónCancelar DecoradoBotón">Cancel</button>
                 <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
