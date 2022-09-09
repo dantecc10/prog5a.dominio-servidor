@@ -8,3 +8,5 @@ D: Hay que usar el README como chat para dejarnos notas técnicas, pero para est
 <dante>Aquí te dejo mi mensaje técnico</dante>
 
 <jeremy>Hago puebas para separar un string</jeremy>
+
+<jeremy>Encontre un metodo en js para separar strings de forma facil, sin tener que ponerle un for o algo asi</jeremy>
