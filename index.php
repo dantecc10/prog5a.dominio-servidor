@@ -4,7 +4,7 @@
 <head>
     <link rel="shortcut icon" href="IMG/FAVICON TRANSPARENTE.png" type="image/x-icon">
     <link id="EtiquetaCSS" rel="Stylesheet" href="CSS/CSS GLOBAL - TEMA INSTITUCIONAL PUEBLA.css" Type="text/css" MEDIA="screen">
-    <link rel="Stylesheet" href="CSS/Formulario.css" Type="text/css" MEDIA="screen">
+    <!--<link rel="Stylesheet" href="CSS/Formulario.css" Type="text/css" MEDIA="screen">-->
     <!--<link id="Oculta/Muestra" rel="Stylesheet" href="../CSS/CSS OCULTAMIENTO.css" Type="text/css" MEDIA="screen">-->
 
     <meta name="description" content="Dante Castelán Carpinteyro: Web dedicada a publicación de proyectos y código personal.">
