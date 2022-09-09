@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <table>
+    <table class="InsertarResultados Examen ">
         <tr>
             <td>ID</td>
             <td>Nombre</td>
@@ -59,7 +59,7 @@
                 <?php
                 $MapsSource = ("https://www.google.com/maps?q=" . $row['Latitud'] . "," . $row['Longitud'] . "&hl=es;z=14&output=embed");
                 ?>
-                <td class="CeldaMapa InsertarResultados Examen"> <iframe class="iFrameMapa" src="<?php echo $MapsSource; ?>"></iframe> </td>
+                <td class="CeldaMapa"> <iframe class="iFrameMapa" src="<?php echo $MapsSource; ?>"></iframe> </td>
             </tr>
         <?php
         endforeach;
