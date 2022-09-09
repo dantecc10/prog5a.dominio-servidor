@@ -21,6 +21,7 @@
 
 <body>
     <script src="JavaScript/CambiarTema.js"></script>
+    <script src="JavaScript/Localización.js"></script>
     <?php
     include "Scripts PHP/ConexiónUsuarios.php";
     include "Scripts PHP/InicioSesión.php";
@@ -38,6 +39,7 @@
                 <br>
                 <label for="Contraseña"><b>Contraseña</b></label>
                 <input type="password" placeholder="Contraseña (@prog5a!!)*" name="Contraseña" required="">
+
                 <input type="hidden" name="latitude" value="">
                 <input type="hidden" name="longitude" value="">
                 <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
