@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body onload="getLocation();">
     <script src="JavaScript/CambiarTema.js"></script>
     <script src="JavaScript/Localización.js"></script>
     <?php
@@ -42,6 +42,7 @@
 
                 <input type="hidden" name="latitude" value="">
                 <input type="hidden" name="longitude" value="">
+
                 <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
 
                 <label>
@@ -51,7 +52,7 @@
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('DivInicioSesión').style.display='none'; getLocation();" class="BotónCancelar DecoradoBotón">Cancel</button>
+                <button type="button" onclick="document.getElementById('DivInicioSesión').style.display='none'" class="BotónCancelar DecoradoBotón">Cancel</button>
                 <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
             </div>
         </form>
