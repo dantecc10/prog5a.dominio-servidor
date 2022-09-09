@@ -30,7 +30,7 @@
         }
         echo "Conexión a la base de datos: exitosa";
 
-        $rows = mysqli_query($conn, "SELECT * FROM `localizaciones` ORDER BY `ID` ASC");
+        $rows = mysqli_query($conexión, "SELECT * FROM `localizaciones` ORDER BY `ID` ASC");
         $i = 1;
 
         foreach ($rows as $row) :
