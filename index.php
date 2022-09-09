@@ -46,11 +46,11 @@
             </div>
 
             <div class="container">
-                <label for="usuario"><b>Usuario</b></label>
-                <input type="text" placeholder="Usuario (en mayúsculas)*" name="usuario" required="">
+                <label for="Usuario"><b>Usuario</b></label>
+                <input type="text" placeholder="Usuario (en mayúsculas)*" name="Usuario" required="">
                 <br>
-                <label for="contraseña"><b>Contraseña</b></label>
-                <input type="password" placeholder="Contraseña (en minúsculas)*" name="contraseña" required="">
+                <label for="Contraseña"><b>Contraseña</b></label>
+                <input type="password" placeholder="Contraseña (en minúsculas)*" name="Contraseña" required="">
 
                 <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
                 <!-- 
