@@ -6,3 +6,5 @@ Sí lo veo Jeremy
 D: Hay que usar el README como chat para dejarnos notas técnicas, pero para estandarizar, indiquemos con etiquetas tipo HTML nuestra inicial o nombre para saber quién escribe, ejemplo:
 
 <dante>Aquí te dejo mi mensaje técnico</dante>
+
+<jeremy>Hago puebas para separar un string</jeremy>
