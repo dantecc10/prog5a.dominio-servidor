@@ -18,9 +18,10 @@
 
 <body>
     <?php
-    include "Scripts PHP/Conexi%C3%B3nUsuarios.php";
-    include "Scripts PHP/InicioSesi%C3%B3n.php";
+    include "Scripts PHP/ConexiónUsuarios.php";
+    include "Scripts PHP/InicioSesión.php";
     ?>
+    <script src="JavaScript/CambiarTema.js"></script>
     <div id="DivInicioSesión" class="modal">
         <form class="modal-content animate" action="" method="post">
             <div class="imgcontainer">
@@ -30,17 +31,17 @@
 
             <div class="container">
                 <label for="Usuario"><b>Usuario</b></label>
-                <input type="text" placeholder="Usuario (en mayúsculas)*" name="Usuario" required="">
+                <input type="text" placeholder="usuario@prog5a*" name="Usuario" required="">
                 <br>
                 <label for="Contraseña"><b>Contraseña</b></label>
-                <input type="password" placeholder="Contraseña (en minúsculas)*" name="Contraseña" required="">
+                <input type="password" placeholder="Contraseña (@prog5a!!)*" name="Contraseña" required="">
 
                 <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
-                <!-- 
+
                 <label>
                     <input type="checkbox" checked="checked" name="remember">Recordarme
                 </label>
-                !-->
+
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
@@ -49,8 +50,7 @@
             </div>
         </form>
     </div>
-    <script src="JavaScript/CambiarTema.js"></script>
-    <!--Encabezado (no mover)--> <br>
+    <br>
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
