@@ -28,7 +28,7 @@
         if (!$conexión) {
             die("<p>Error al conectar con la base de datos: " . mysqli_connect_error() . "</p><p>Pruebe a verificar la conexión del servidor...</p>");
         }
-        // echo "Conexión a la base de datos: exitosa";
+        echo "Conexión a la base de datos: exitosa";
 
         $rows = mysqli_query($conn, "SELECT * FROM `localizaciones` ORDER BY `id` ASC");
         $i = 1;
