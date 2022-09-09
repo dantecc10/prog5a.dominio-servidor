@@ -42,6 +42,8 @@
         <h3 class="TítuloArtículo">En construcción...</h3>
         <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
     </div>
+    <?php
+    ?>
     <footer>
         <div id="RedesSociales" align="center">
             <hr id="AntesSociales">
