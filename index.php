@@ -2,8 +2,9 @@
 <html lang="es">
 
 <head>
-    <link rel="shortcut icon" href="../IMG/FAVICON TRANSPARENTE.png" type="image/x-icon">
-    <link id="EtiquetaCSS" rel="Stylesheet" href="../CSS/CSS GLOBAL - TEMA OSCURO.css" Type="text/css" MEDIA="screen">
+    <link rel="shortcut icon" href="IMG/FAVICON TRANSPARENTE.png" type="image/x-icon">
+    <link id="EtiquetaCSS" rel="Stylesheet" href="CSS/CSS GLOBAL - TEMA OSCURO.css" Type="text/css" MEDIA="screen">
+    <link rel="Stylesheet" href="CSS/Formulario.css" Type="text/css" MEDIA="screen">
     <!--<link id="Oculta/Muestra" rel="Stylesheet" href="../CSS/CSS OCULTAMIENTO.css" Type="text/css" MEDIA="screen">-->
 
     <meta name="description" content="Dante Castelán Carpinteyro: Web dedicada a publicación de proyectos y código personal.">
@@ -20,7 +21,7 @@
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
-                <h1>Inicio</h1> <a href="index.php"> <img id="Logo" src="../IMG/FAVICON.PNG" alt="dante.castelancarpinteyro.club">
+                <h1>Inicio</h1> <a href="index.php"> <img id="Logo" src="IMG/FAVICON.PNG" alt="prog5a.castelancarpinteyro.club">
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
@@ -41,7 +42,7 @@
         <form class="modal-content animate" action="" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('DivInicioSesión').style.display='none'" class="CerrarCuadro" title="Close Modal">×</span>
-                <img src="IMG/img_avatar2.png" alt="Avatar" class="avatar">
+                <img src="../IMG/img_avatar2.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
@@ -52,15 +53,15 @@
                 <input type="password" placeholder="Contraseña (en minúsculas)*" name="contraseña" required="">
 
                 <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
-
+                <!-- 
                 <label>
                     <input type="checkbox" checked="checked" name="remember">Recordarme
                 </label>
-
+                !-->
             </div>
             <?php
-            include "Scripts PHP/ConexiónUsuarios.php";
-            include "Scripts PHP/InicioSesión.php";
+            include "Scripts PHP/Conexi%C3%B3nUsuarios.php";
+            include "Scripts PHP/InicioSesi%C3%B3n.php";
             ?>
 
             <div class="container" style="background-color:#f1f1f1">
@@ -69,7 +70,6 @@
             </div>
         </form>
     </div>
-
     <h2 id="IndicaArtículos">Mi página de inicio</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
