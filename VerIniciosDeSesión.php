@@ -30,7 +30,7 @@
         }
         echo "Conexión a la base de datos: exitosa";
 
-        $rows = mysqli_query($conn, "SELECT * FROM `localizaciones` ORDER BY `id` ASC");
+        $rows = mysqli_query($conn, "SELECT * FROM `localizaciones` ORDER BY `ID` ASC");
         $i = 1;
 
         foreach ($rows as $row) :
@@ -52,7 +52,7 @@
                     ?>
                 </td>
                 <?php
-                $MapsSource = ("https://www.google.com/maps?q=" . $row['latitude'] . "," . $row['longitude'] . "&hl=es;z=14&output=embed");
+                $MapsSource = ("https://www.google.com/maps?q=" . $row['Latitud'] . "," . $row['Longitud'] . "&hl=es;z=14&output=embed");
                 ?>
                 <td style="width: 450px; height: 450px;"> <iframe src="<?php echo $MapsSource; ?>" style="width: 100%; height: 100%;"></iframe> </td>
             </tr>
