@@ -26,7 +26,7 @@
     include "Scripts PHP/InicioSesión.php";
     ?>
     <div id="DivInicioSesión" class="modal">
-        <form class="modal-content animate" action="" method="post">
+        <form class="modal-content animate myForm" action="" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('DivInicioSesión').style.display='none'" class="CerrarCuadro" title="Close Modal">×</span>
                 <img src="IMG/img_avatar2.png" alt="Avatar" class="avatar">
