@@ -406,6 +406,16 @@
     td#TotalAciertos {
         width: 80%;
     }
+
+    .CeldaMapa {
+        width: 450px;
+        height: 450px;
+    }
+
+    .iFrameMapa {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /*Fin de punto de ruptura para pantallas grandes*/
