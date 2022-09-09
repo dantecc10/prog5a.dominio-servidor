@@ -8,3 +8,4 @@ D: Hay que usar el README como chat para dejarnos notas técnicas, pero para est
 <dante>Aquí te dejo mi mensaje técnico</dante>
 
 <jeremy>Hago puebas para separar un string</jeremy>
+<dante>Yo sigo en el login, no sé por qué me dice campos vacíos al dar click :'(</dante>
