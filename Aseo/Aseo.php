@@ -1,5 +1,8 @@
 <?php
-// require 'Scripts PHP/ConexiónLocalización.php';
+session_start();
+if (empty($_SESSION['ID'])) {
+    header("Location: ../index.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">

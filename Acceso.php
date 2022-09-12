@@ -65,6 +65,7 @@ if (empty($_SESSION['ID'])) {
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
                         <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
+                        <a href="Aseo/Aseo.php">Aseo</a>
                         <a href="ProgramasPC.php">Programas avanzados para PC</a>
                         <a href="AcercaDe.php">Acerca de...</a>
                         <a href="Scripts PHP/CerrarSesión.php">Cerrar sesión</a>
