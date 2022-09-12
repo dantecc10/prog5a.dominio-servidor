@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROG5A - Inicio</title>
+    <title>PROG5A - Equipos de aseo</title>
 
 </head>
 
@@ -78,11 +78,49 @@
         <div id="Encabezado-Inferior"></div>
     </header>
 
-    <h2 id="IndicaArtículos">Mi página de inicio</h2>
+    <h2 id="IndicaArtículos">Equipos de aseo</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
-        <h3 class="TítuloArtículo">En construcción...</h3>
+        <h3 class="TítuloArtículo">Organización</h3>
         <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
+    </div>
+    <div>
+        <p class="Descripción-Artículo">
+            <?php
+            require('Scripts PHP/Conexión.php');
+            echo (". Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ".");
+            ?>
+        </p>
+        <!--
+        <input class='BotónEstándar' type='submit' value="Filtrar productos" onclick="javascript:FiltrarProductos();">
+    -->
+
+        <button class="BotónEstándar" onclick="javascript:LimpiarFiltros();">Limpiar filtros</button>
+        <br>
+        <div id="DivTablaID"></div>
+        <hr>
+
+        <table id="InsertarResultados">
+            <?php
+            $consulta = "SELECT * FROM `equipos administrativos`";
+            $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
+            echo "<tr>";
+            echo "<th>ID</th>";
+            echo "<th>Nombre</th>";
+            echo "<th>Equipo</th>";
+            echo "</tr>";
+            while ($columna = mysqli_fetch_array($resultado)) {
+                echo "<tr>";
+                echo "<td>" . $columna['ID'] . "</td>";
+
+                echo "<td>" . $columna['Nombre'] . $columna['Apellidos'] .  "</td>";
+
+                echo "<td>" . $columna['Equipo'] . "</td>";
+                echo "</tr>";
+            }
+            mysqli_close($conexión)
+            ?>
+        </table>
     </div>
     <footer>
         <div id="RedesSociales" align="center">
