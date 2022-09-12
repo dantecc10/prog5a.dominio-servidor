@@ -113,7 +113,7 @@
                 echo "<tr>";
                 echo "<td>" . $columna['ID'] . "</td>";
 
-                echo "<td>" . $columna['Nombre'] . $columna['Apellidos'] .  "</td>";
+                echo "<td>" . $columna['Nombre'] . " " . $columna['Apellidos'] .  "</td>";
 
                 echo "<td>" . $columna['Equipo'] . "</td>";
                 echo "</tr>";
