@@ -91,7 +91,7 @@ if (empty($_SESSION['ID'])) {
     <div>
         <p class="Descripción-Artículo">
             <?php
-            require('Scripts PHP/Conexión.php');
+            require('../Scripts PHP/Conexión.php');
             echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ".");
             ?>
         </p>
