@@ -98,7 +98,7 @@ if (empty($_SESSION['ID'])) {
         <!--
         <input class='BotónEstándar' type='submit' value="Filtrar productos" onclick="javascript:FiltrarProductos();">
     -->
-        <table id="InsertarResultados Examen">
+        <table class="InsertarResultados Examen">
             <?php
             $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `EquipoAseo`>0";
             $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
