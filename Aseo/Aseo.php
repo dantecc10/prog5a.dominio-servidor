@@ -87,22 +87,17 @@ if (empty($_SESSION['ID'])) {
         <h3 class="TítuloArtículo">Organización</h3>
         <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
     </div>
+
     <div>
         <p class="Descripción-Artículo">
             <?php
             require('Scripts PHP/Conexión.php');
-            echo (". Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ".");
+            echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ".");
             ?>
         </p>
         <!--
         <input class='BotónEstándar' type='submit' value="Filtrar productos" onclick="javascript:FiltrarProductos();">
     -->
-
-        <button class="BotónEstándar" onclick="javascript:LimpiarFiltros();">Limpiar filtros</button>
-        <br>
-        <div id="DivTablaID"></div>
-        <hr>
-
         <table id="InsertarResultados">
             <?php
             $consulta = "SELECT * FROM `usuarios_prog5a`";
@@ -125,6 +120,9 @@ if (empty($_SESSION['ID'])) {
             ?>
         </table>
     </div>
+
+
+
     <footer>
         <div id="RedesSociales" align="center">
             <hr id="AntesSociales">
