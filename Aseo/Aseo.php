@@ -102,7 +102,7 @@
 
         <table id="InsertarResultados">
             <?php
-            $consulta = "SELECT * FROM `equipos administrativos`";
+            $consulta = "SELECT * FROM `usuarios_prog5a`";
             $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
             echo "<tr>";
             echo "<th>ID</th>";
@@ -115,7 +115,7 @@
 
                 echo "<td>" . $columna['Nombre'] . " " . $columna['Apellidos'] .  "</td>";
 
-                echo "<td>" . $columna['Equipo'] . "</td>";
+                echo "<td>" . $columna['EquipoAseo'] . "</td>";
                 echo "</tr>";
             }
             mysqli_close($conexión)
