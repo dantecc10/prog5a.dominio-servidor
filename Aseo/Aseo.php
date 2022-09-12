@@ -85,14 +85,21 @@ if (empty($_SESSION['ID'])) {
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
         <h3 class="TítuloArtículo">Organización</h3>
-        <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
+        <p class="Descripción-Artículo"></p>
     </div>
 
     <div>
         <p class="Descripción-Artículo">
             <?php
-
-            echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ".");
+            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `Equipo`>0";
+            $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos. ");
+            while ($columna = mysqli_fetch_array($resultado)) {
+                if (($columna['Nombre'] = $_SESSION['Nombre']) && ($columna['Apellidos'] = $_SESSION['Apellidos'])) {
+                    echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ". Aquí tienes la lista de estudiantes del PROG5A y la integración de los equipos de aseo. Perteneces al equipo " . $columna['EquipoAseo'] . ".");
+                } else {
+                    echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ". Aquí tienes la lista de estudiantes del PROG5A y la integración de los equipos de aseo.");
+                }
+            }
             ?>
         </p>
         <!--
@@ -100,7 +107,6 @@ if (empty($_SESSION['ID'])) {
     -->
         <table class="InsertarResultados Examen">
             <?php
-            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `EquipoAseo`>0";
             $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
             echo "<tr>";
             echo "<th>ID</th>";
@@ -120,9 +126,6 @@ if (empty($_SESSION['ID'])) {
             ?>
         </table>
     </div>
-
-
-
     <footer>
         <div id="RedesSociales" align="center">
             <hr id="AntesSociales">
