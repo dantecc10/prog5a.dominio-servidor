@@ -100,7 +100,7 @@ if (empty($_SESSION['ID'])) {
     -->
         <table id="InsertarResultados">
             <?php
-            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `EquipoAseo` IS NOT 0";
+            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `EquipoAseo`>0";
             $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
             echo "<tr>";
             echo "<th>ID</th>";
