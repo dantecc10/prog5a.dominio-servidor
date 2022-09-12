@@ -91,10 +91,6 @@ if (empty($_SESSION['ID'])) {
     <div>
         <p class="Descripción-Artículo">
             <?php
-            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `Equipo`>0";
-            $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos. ");
-
-
             echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . ". Aquí tienes la lista de estudiantes del PROG5A y la integración de los equipos de aseo.");
             ?>
         </p>
@@ -103,6 +99,7 @@ if (empty($_SESSION['ID'])) {
     -->
         <table class="InsertarResultados Examen">
             <?php
+            $consulta = "SELECT * FROM `usuarios_prog5a` WHERE `EquipoAseo`>0";
             $resultado = mysqli_query($conexión, $consulta) or die("Error en la consulta a la base de datos");
             echo "<tr>";
             echo "<th>ID</th>";
