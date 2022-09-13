@@ -68,6 +68,13 @@ if (empty($_SESSION['ID'])) {
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
+                    <a href="Aseo1.php">Equipo 1</a>
+                        <a href="Aseo2.php">Equipo 2</a>
+                        <a href="Aseo3.php">Equipo 3</a>
+                        <a href="Aseo4.php">Equipo 4</a>
+                        <a href="Aseo5.php">Equipo 5</a>
+                        <a href="Aseo6.php">Equipo 6</a>
+                        <a href="Aseo7.php">Equipo 7</a>
                         <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="../ProgramasPC.php">Programas avanzados para PC</a>
                         <a href="../AcercaDe.php">Acerca de...</a>
