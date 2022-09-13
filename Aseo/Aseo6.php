@@ -8,7 +8,7 @@ if (empty($_SESSION['ID'])) {
 <html lang="es">
 
 <head>
-    <link rel="shortcut icon" href="../IMG/SS SUITE-1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../IMG/Logo-PROG5A.png" type="image/x-icon">
     <link id="EtiquetaCSS" rel="Stylesheet" href="../CSS/CSS GLOBAL - TEMA INSTITUCIONAL PUEBLA.css" Type="text/css" MEDIA="screen">
     <!--<link rel="Stylesheet" href="CSS/Formulario.css" Type="text/css" MEDIA="screen">-->
     <!--<link id="Oculta/Muestra" rel="Stylesheet" href="../CSS/CSS OCULTAMIENTO.css" Type="text/css" MEDIA="screen">-->
@@ -18,7 +18,7 @@ if (empty($_SESSION['ID'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROG5A - Equipos de aseo</title>
+    <title>PROG5A - Equipo 6 de aseo</title>
 
 </head>
 
@@ -64,7 +64,7 @@ if (empty($_SESSION['ID'])) {
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
-                <h1>PROG5A</h1> <a href="index.php"> <img id="Logo" src="IMG/SS SUITE-1.png" alt="prog5a.castelancarpinteyro.club">
+                <h1>PROG5A</h1> <a href="index.php"> <img id="Logo" src="IMG/Logo-PROG5A.png" alt="prog5a.castelancarpinteyro.club">
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
