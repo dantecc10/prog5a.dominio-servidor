@@ -64,13 +64,13 @@ if (empty($_SESSION['ID'])) {
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
-                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="Aseo/Aseo.php">Aseo</a>
+                        <a href="Materiales/index.php">Materiales</a>
+                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="ProgramasPC.php">Programas avanzados para PC</a>
-                        <a href="AcercaDe.php">Acerca de...</a>
                         <a href="Scripts PHP/CerrarSesión.php">Cerrar sesión</a>
                         <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
-                        <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
+                        <a href="AcercaDe.php">Acerca de...</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ if (empty($_SESSION['ID'])) {
         <p class="Descripción-Artículo">
             <?php
             //require('Scripts PHP/Conexión.php');
-            echo (". Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . " " . $_SESSION['Apellidos'] . ".");
+            echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . " " . $_SESSION['Apellidos'] . ".");
             ?>
         </p>
         <h3 class="TítuloArtículo">En construcción...</h3>
