@@ -67,9 +67,9 @@
                     <div class="Contenido-Desplegable">
                         <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="ProgramasPC.php">Programas avanzados para PC</a>
-                        <a href="AcercaDe.php">Acerca de...</a>
-                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
                         <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
+                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
+                        <a href="AcercaDe.php">Acerca de...</a>
                     </div>
                 </div>
             </div>
