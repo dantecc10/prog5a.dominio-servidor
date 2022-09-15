@@ -78,7 +78,7 @@
         <div id="Encabezado-Inferior"></div>
     </header>
 
-    <h2 id="IndicaArtículos">Mi página de inicio</h2>
+    <h2 id="IndicaArtículos">Página web grupal - PROG5A</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
         <h3 class="TítuloArtículo">En construcción...</h3>
