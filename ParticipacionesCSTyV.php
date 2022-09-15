@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['ID'])) {
-    header("Location: ../index.php");
+    header("Location: index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ if (empty($_SESSION['ID'])) {
     include "Scripts PHP/ConexiónUsuarios.php";
     include "Scripts PHP/InicioSesión.php";
     ?>
-
+    
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
@@ -51,7 +51,7 @@ if (empty($_SESSION['ID'])) {
         <div id="Encabezado-Inferior"></div>
     </header>
 
-    <h2 id="IndicaArtículos">Has accedido correctamente</h2>
+    <h2 id="IndicaArtículos">Mi página de inicio</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
         <p class="Descripción-Artículo">
@@ -60,8 +60,8 @@ if (empty($_SESSION['ID'])) {
             echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . " " . $_SESSION['Apellidos'] . ".");
             ?>
         </p>
-        <h3 class="TítuloArtículo">Bienvenido</h3>
-        <p class="Descripción-Artículo">Haz uso de los recursos disponibles en esta página. Puedes proponer más funciones y mejoras, o dar retroalimentación a través de cualquiera de lso canales de comunicación disponibles al final de esta página.</p>
+        <h3 class="TítuloArtículo">En construcción...</h3>
+        <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
     </div>
     <footer>
         <div id="RedesSociales" align="center">
