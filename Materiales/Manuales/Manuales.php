@@ -63,7 +63,11 @@ if (empty($_SESSION['ID'])) {
         </p>
         <h3 class="TítuloArtículo">Bienvenido</h3>
         <p class="Descripción-Artículo">Haz uso de los recursos disponibles en esta página. Puedes proponer más funciones y mejoras, o dar retroalimentación a través de cualquiera de lso canales de comunicación disponibles al final de esta página.</p>
-        <a href="5-1/Manual de Aprendizaje -Inglés.pdf" download="Manual de Aprendizaje -Inglés.pdf">Inglés</a>
+        <a href="5-1/Manual de Aprendizaje - Inglés.pdf" download="Manual de Aprendizaje - Inglés.pdf">Inglés</a>
+        <a href="5-1/Manual de Aprendizaje - Física.pdf" download="Manual de Aprendizaje - Física.pdf">Física</a>
+        <a href="5-1/Manual de Aprendizaje - M5S1.pdf" download="Manual de Aprendizaje - M5S1.pdf">M5S1</a>
+        <a href="5-1/Manual de Aprendizaje - CTSyV.pdf" download="Manual de Aprendizaje - CTSyV.pdf">CTSyV</a>
+        <a href="5-1/Manual de Aprendizaje - Cálculo Integral.pdf" download="Manual de Aprendizaje - Cálculo Integral.pdf">Cálculo Integral</a>
     </div>
     <footer>
         <div id="RedesSociales" align="center">
