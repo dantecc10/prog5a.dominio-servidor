@@ -1,8 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['ID'])) {
-    $_SESSION['ID'] = 0;
-    $_SESSION['Nombre'] = "invitado";
+    header("Location: ../index.php");
 }
 ?>
 <!DOCTYPE html>
