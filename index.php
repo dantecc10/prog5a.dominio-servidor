@@ -67,9 +67,9 @@
                     <div class="Contenido-Desplegable">
                         <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="ProgramasPC.php">Programas avanzados para PC</a>
-                        <a href="AcercaDe.php">Acerca de...</a>
-                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
                         <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
+                        <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
+                        <a href="AcercaDe.php">Acerca de...</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
         <div id="Encabezado-Inferior"></div>
     </header>
 
-    <h2 id="IndicaArtículos">Mi página de inicio</h2>
+    <h2 id="IndicaArtículos">Página web grupal - PROG5A</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
         <h3 class="TítuloArtículo">En construcción...</h3>

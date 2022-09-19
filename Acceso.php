@@ -28,35 +28,7 @@ if (empty($_SESSION['ID'])) {
     include "Scripts PHP/ConexiónUsuarios.php";
     include "Scripts PHP/InicioSesión.php";
     ?>
-    <div id="DivInicioSesión" class="modal">
-        <form class="modal-content animate" action="" method="post">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('DivInicioSesión').style.display='none'" class="CerrarCuadro" title="Close Modal">×</span>
-                <img src="IMG/img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
 
-            <div class="container">
-                <label for="Usuario"><b>Usuario</b></label>
-                <input type="text" placeholder="usuario@prog5a*" name="Usuario" required="">
-                <br>
-                <label for="Contraseña"><b>Contraseña</b></label>
-                <input type="password" placeholder="Contraseña (@prog5a!!)*" name="Contraseña" required="">
-
-                <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
-
-                <label>
-                    <input type="checkbox" checked="checked" name="remember">Recordarme
-                </label>
-
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('DivInicioSesión').style.display='none'" class="BotónCancelar DecoradoBotón">Cancel</button>
-                <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
-            </div>
-        </form>
-    </div>
-    <br>
     <header id="Encabezado">
         <div id="Contenedor-Encabezado">
             <div id="Contenido-Encabezado">
@@ -64,13 +36,13 @@ if (empty($_SESSION['ID'])) {
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
-                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="Aseo/Aseo.php">Aseo</a>
+                        <a href="Materiales/Materiales.php">Materiales</a>
+                        <a href="https://politiza.castelancarpinteyro.club/">POLITIZA MX</a>
                         <a href="ProgramasPC.php">Programas avanzados para PC</a>
-                        <a href="AcercaDe.php">Acerca de...</a>
                         <a href="Scripts PHP/CerrarSesión.php">Cerrar sesión</a>
                         <a id="CambiaTema" onclick="javascript:CambiarTema();">Cambiar tema</a>
-                        <button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button>
+                        <a href="AcercaDe.php">Acerca de...</a>
                     </div>
                 </div>
             </div>
@@ -79,17 +51,17 @@ if (empty($_SESSION['ID'])) {
         <div id="Encabezado-Inferior"></div>
     </header>
 
-    <h2 id="IndicaArtículos">Mi página de inicio</h2>
+    <h2 id="IndicaArtículos">Has accedido correctamente</h2>
     <div class="Contenedor-Artículos" id="PartidosPolíticos">
         <h4 class="Autor-Artículo">Por Dante Castelán Carpinteyro.</h4>
         <p class="Descripción-Artículo">
             <?php
             //require('Scripts PHP/Conexión.php');
-            echo (". Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . " " . $_SESSION['Apellidos'] . ".");
+            echo ("Un gusto tenerte por aquí, " . $_SESSION['Nombre'] . " " . $_SESSION['Apellidos'] . ".");
             ?>
         </p>
-        <h3 class="TítuloArtículo">En construcción...</h3>
-        <p class="Descripción-Artículo">Pronto actualizaré el código de index; paciencia.</p>
+        <h3 class="TítuloArtículo">Bienvenido</h3>
+        <p class="Descripción-Artículo">Haz uso de los recursos disponibles en esta página. Puedes proponer más funciones y mejoras, o dar retroalimentación a través de cualquiera de lso canales de comunicación disponibles al final de esta página.</p>
     </div>
     <footer>
         <div id="RedesSociales" align="center">

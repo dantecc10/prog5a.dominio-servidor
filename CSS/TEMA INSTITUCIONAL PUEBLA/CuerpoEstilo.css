@@ -93,7 +93,7 @@
 
     #copyright {
         text-align: center;
-        color: whitesmoke;
+        color: #07a189;
         text-decoration: dotted;
     }
 
@@ -145,7 +145,7 @@
     div h4.Autor-Artículo,
     div p.Autor-Artículo {
         margin-top: -2px;
-        color: #60dbf1;
+        color: #07a189;
         text-align: center;
         font-size: 20px;
         background-color: #0C37E832;
@@ -174,7 +174,7 @@
         color: whitesmoke;
         font-size: 20px;
         text-align: justify;
-        background-color: #07a18a5f;
+        background-color: #07a189;
         border-radius: 25px;
         text-indent: 20px;
         padding-top: 15px;
@@ -514,7 +514,7 @@
 
     #copyright {
         text-align: center;
-        color: whitesmoke;
+        color: #07a189;
         text-decoration: dotted;
     }
 
@@ -566,7 +566,7 @@
     div h4.Autor-Artículo,
     div p.Autor-Artículo {
         margin-top: -2px;
-        color: #60dbf1;
+        color: #07a189;
         text-align: center;
         font-size: 20px;
         background-color: #0C37E832;
@@ -595,7 +595,7 @@
         color: whitesmoke;
         font-size: 20px;
         text-align: justify;
-        background-color: #07a18a5f;
+        background-color: #07a189;
         border-radius: 25px;
         text-indent: 20px;
         padding-top: 15px;
