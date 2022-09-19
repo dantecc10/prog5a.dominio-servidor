@@ -62,7 +62,7 @@ if (empty($_SESSION['ID'])) {
         </p>
         <h3 class="TítuloArtículo">Bienvenido</h3>
         <p class="Descripción-Artículo">Haz uso de los recursos disponibles en esta página. Puedes proponer más funciones y mejoras, o dar retroalimentación a través de cualquiera de lso canales de comunicación disponibles al final de esta página.</p>
-        <ul>
+        <ul class="ListaLinks">
             <li><a href="5-1/Manual de Aprendizaje - Inglés.pdf" download="Manual de Aprendizaje - Inglés.pdf">Inglés</a><br></li>
             <li> <a href="5-1/Manual de Aprendizaje - Física.pdf" download="Manual de Aprendizaje - Física.pdf">Física</a><br></li>
             <li> <a href="5-1/Manual de Aprendizaje - M5S1.pdf" download="Manual de Aprendizaje - M5S1.pdf">M5S1</a><br></li>
