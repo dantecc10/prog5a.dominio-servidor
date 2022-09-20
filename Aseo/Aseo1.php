@@ -68,7 +68,7 @@ if (empty($_SESSION['ID'])) {
                 </a>
                 <div class="Menú-Desplegable"> <button class="Botón-Desplegar">Menú</button>
                     <div class="Contenido-Desplegable">
-                    <a href="Aseo1.php">Equipo 1</a>
+                        <a href="Aseo1.php">Equipo 1</a>
                         <a href="Aseo2.php">Equipo 2</a>
                         <a href="Aseo3.php">Equipo 3</a>
                         <a href="Aseo4.php">Equipo 4</a>
