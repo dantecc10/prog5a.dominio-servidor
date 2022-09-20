@@ -23,7 +23,7 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
             if (data[i]["entidad"] == datoEstado) {
                 document.getElementById("InsertarResultados").innerHTML += ("<tr>" + "<td>" + data[i]["status"] + "</td>" + "<td>" + data[i]["message"] + "</td>" + "<td>" + data[i]["country"] + "</td>" + "<td>" + data[i]["countryCode"] + "</td>" + "<td>" + data[i]["region"] + "</td>" + "<td>" + data[i]["regionName"] + "</td>" + "<td>" + data[i]["city"] + "</td>" + "<td>" + data[i]["zip"] + "</td>" + "<td>" + data[i]["lat"] + "</td>" + "<td>" + data[i]["lon"] + "</td>" + "<td>" + data[i]["timezone"] + "</td>" + "<td>" + data[i]["isp"] + "</td>" + "<td>" + data[i]["org"] + "</td>" + "<td>" + data[i]["query"] + "</td></tr>");
 
-                console.log("IP: ", dirIP, "\nNúmero: ", data[i]["número"], ".- ", data[i]["nombre"], " ", data[i]["apellidoPaterno"], " ", data[i]["apellidoMaterno"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]);
+                console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage",data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]);
                 contador++;
             }
             else {
