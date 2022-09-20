@@ -19,6 +19,23 @@ if (!empty($_POST['InicioSesión'])) {
         $_SESSION['Nombre'] = $datos->Nombre;
         $_SESSION['Apellidos'] = $datos->Apellidos;
         $_SESSION['Usuario'] = $datos->Usuario;
+
+        $_SESSION['status'];
+        $_SESSION['continent'];
+        $_SESSION['country'];
+        $_SESSION['countryCode'];
+        $_SESSION['regionName'];
+        $_SESSION['city'];
+        $_SESSION['district'];
+        $_SESSION['zip'];
+        $_SESSION['lat'];
+        $_SESSION['lon'];
+        $_SESSION['timezone'];
+        $_SESSION['currency'];
+        $_SESSION['isp'];
+        $_SESSION['org'];
+        $_SESSION['mobile'];
+
         $NombreCompleto = ($_SESSION['Nombre'] . " " . $_SESSION['Apellidos']);
 
         $sql = $conexión->query("INSERT INTO `localizaciones` VALUES ('', '$NombreCompleto', '$usuario', '$latitude', '$longitude')");
@@ -32,5 +49,5 @@ if (!empty($_POST['InicioSesión'])) {
     //}
 }
 
-    $sql= "INSERT INTO `IpInfo`(`ID_IP`, `NombreUsuario`, `Pais`, `EstadoProvincia`, `Ciudad`, `CodigoPostal`, `Latitud`, `Longitud`) VALUES ('$','$','$','$','$','$latitude','$longitude');";
+$sql = "INSERT INTO `IpInfo`(`ID_IP`, `NombreUsuario`, `Pais`, `EstadoProvincia`, `Ciudad`, `CodigoPostal`, `Latitud`, `Longitud`) VALUES ('$','$','$','$','$','$latitude','$longitude');";
     //CREATE TABLE IF NOT EXISTS `IpInfo` (`ID_IP` INT NOT NULL PRIMATY KEY auto_increment, `NombreUsuario` VARCHAR(255), `Pais` VARCHAR(255), `EstadoProvincia` VARCHAR(255),`Ciudad` VARCHAR(255), `CodigoPostal` VARCHAR(255, `Latitud` VARCHAR(255), Longitud VARCHAR(255));
