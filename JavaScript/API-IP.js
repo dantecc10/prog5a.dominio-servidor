@@ -2,7 +2,7 @@ var urlBase = "http://ip-api.com/json/", finURL = "?fields=61439", dirIP, urlCom
 
 function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a través de la inserción de código para construir tablas
 
-    urlCompleta = (urlBase + dirIP + finURL);
+    urlCompleta = (urlBase, dirIP, finURL);
     /*¡Éxito!*/ // Línea temporal de depuración: // console.log(stringSeleccionadoEstado); //Esto en consola escribe la devolución del estado elegido ej.: 'Aguascalientes'
     fetch(urlCompleta).then(function (response) {
         //Lógica de éxito
