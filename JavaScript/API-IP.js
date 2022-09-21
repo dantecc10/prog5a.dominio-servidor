@@ -18,9 +18,9 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
             console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], "\nRegion", data[i]["region"], "\nNombre de region", data[i]["regionName"], "\nCiudad", data[i]["city"], "\nZip", data[i]["zip"], "\nLatitud", data[i]["lat"], "\nLongitud", data[i]["lon"], "\nZona horaria", data[i]["timezone"], "\nISP", data[i]["isp"], "\nORG", data[i]["org"], "\nQuery", data[i]["query"])
             contador++;
         }
+        document.getElementById("InsertarResultados").innerHTML += ("</table>");
     }).catch(function (error) {
         //Lógica de error
         console.log("Error: ", error);
     });
-    urlVariable = "";
 }
