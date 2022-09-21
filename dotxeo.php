@@ -10,9 +10,8 @@
 
 <body>
     <?php
-    echo ("<script>
-        dirIP = '" . $_SERVER['REMOTE_ADDR'] . "'" .
-        "</script>");
+    echo ("<script class='Borrar'>
+        dirIP = '" . $_SERVER['REMOTE_ADDR'] . "'" . "</script>");
     ?>
     <script>
         investigaIP();
