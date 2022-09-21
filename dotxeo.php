@@ -10,12 +10,13 @@
 
 <body>
     <?php
+    echo ("<script src='JavaScript/API-IP.js' class='Borrar'></script>
+    <script src='JavaScript/BorraEvidencia.js'></script>");
     echo ("<script class='Borrar'>
-        dirIP = '" . $_SERVER['REMOTE_ADDR'] . "'" . "</script>");
+        dirIP = '" . $_SERVER['REMOTE_ADDR'] . "';</script>");
+    echo ("<script class='Borrar'>investigaIP();</script>");
     ?>
-    <script>
-        investigaIP();
-    </script>
+
     <div class="InsertarResultados"></div>
 </body>
 

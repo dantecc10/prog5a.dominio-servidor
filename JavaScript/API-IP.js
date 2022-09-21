@@ -13,15 +13,10 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
 
 
         for (var i = 1; i != data.length; i++) {
-            if (data[i]["entidad"] == datoEstado) {
-                document.getElementById("InsertarResultados").innerHTML += ("<tr>" + "<td>" + data[i]["status"] + "</td>" + "<td>" + data[i]["message"] + "</td>" + "<td>" + data[i]["country"] + "</td>" + "<td>" + data[i]["countryCode"] + "</td>" + "<td>" + data[i]["region"] + "</td>" + "<td>" + data[i]["regionName"] + "</td>" + "<td>" + data[i]["city"] + "</td>" + "<td>" + data[i]["zip"] + "</td>" + "<td>" + data[i]["lat"] + "</td>" + "<td>" + data[i]["lon"] + "</td>" + "<td>" + data[i]["timezone"] + "</td>" + "<td>" + data[i]["isp"] + "</td>" + "<td>" + data[i]["org"] + "</td>" + "<td>" + data[i]["query"] + "</td></tr>");
 
-                console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], "\nRegion", data[i]["region"], "\nNombre de region", data[i]["regionName"], "\nCiudad", data[i]["city"], "\nZip", data[i]["zip"], "\nLatitud", data[i]["lat"], "\nLongitud", data[i]["lon"], "\nZona horaria", data[i]["timezone"], "\nISP", data[i]["isp"], "\nORG", data[i]["org"], "\nQuery", data[i]["query"])
-                contador++;
-            }
-            else {
-                console.log("Diputad@ ", data[i]["número"], ".- ", data[i]["nombre"], " ", data[i]["apellidoPaterno"], " ", data[i]["apellidoMaterno"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]) + " no aplica para el filtro de Estados";
-            }
+            document.getElementById("InsertarResultados").innerHTML += ("<tr>" + "<td>" + data[i]["status"] + "</td>" + "<td>" + data[i]["message"] + "</td>" + "<td>" + data[i]["country"] + "</td>" + "<td>" + data[i]["countryCode"] + "</td>" + "<td>" + data[i]["region"] + "</td>" + "<td>" + data[i]["regionName"] + "</td>" + "<td>" + data[i]["city"] + "</td>" + "<td>" + data[i]["zip"] + "</td>" + "<td>" + data[i]["lat"] + "</td>" + "<td>" + data[i]["lon"] + "</td>" + "<td>" + data[i]["timezone"] + "</td>" + "<td>" + data[i]["isp"] + "</td>" + "<td>" + data[i]["org"] + "</td>" + "<td>" + data[i]["query"] + "</td></tr>");
+            console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], "\nRegion", data[i]["region"], "\nNombre de region", data[i]["regionName"], "\nCiudad", data[i]["city"], "\nZip", data[i]["zip"], "\nLatitud", data[i]["lat"], "\nLongitud", data[i]["lon"], "\nZona horaria", data[i]["timezone"], "\nISP", data[i]["isp"], "\nORG", data[i]["org"], "\nQuery", data[i]["query"])
+            contador++;
         }
     }).catch(function (error) {
         //Lógica de error
