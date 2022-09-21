@@ -7,8 +7,6 @@ var urlBase = "http://ip-api.com/json/", finURL = "?fields=61439", dirIP, urlCom
 
 function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a través de la inserción de código para construir tablas
 
-
-
     urlCompleta = (urlBase + dirIP + finURL);
     /*¡Éxito!*/ // Línea temporal de depuración: // console.log(stringSeleccionadoEstado); //Esto en consola escribe la devolución del estado elegido ej.: 'Aguascalientes'
     fetch(urlVariable).then(function (response) {
@@ -23,7 +21,7 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
             if (data[i]["entidad"] == datoEstado) {
                 document.getElementById("InsertarResultados").innerHTML += ("<tr>" + "<td>" + data[i]["status"] + "</td>" + "<td>" + data[i]["message"] + "</td>" + "<td>" + data[i]["country"] + "</td>" + "<td>" + data[i]["countryCode"] + "</td>" + "<td>" + data[i]["region"] + "</td>" + "<td>" + data[i]["regionName"] + "</td>" + "<td>" + data[i]["city"] + "</td>" + "<td>" + data[i]["zip"] + "</td>" + "<td>" + data[i]["lat"] + "</td>" + "<td>" + data[i]["lon"] + "</td>" + "<td>" + data[i]["timezone"] + "</td>" + "<td>" + data[i]["isp"] + "</td>" + "<td>" + data[i]["org"] + "</td>" + "<td>" + data[i]["query"] + "</td></tr>");
 
-                console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage",data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]);
+                console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]);
                 contador++;
             }
             else {
@@ -46,12 +44,4 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
         console.log("Error: ", error);
     });
     urlVariable = "";
-
-    //Comprobación de verificación de casilla para filtro de partidos
-    if (document.getElementById("FiltroDttoCirc").checked == true) {
-        console.log("El filtro de distritos/circunscripciones fue activado.");
-    }
-    else {
-        console.log("El filtro de distritos/circunscripciones está inactivo o es ilegible.");
-    }
 }
