@@ -6,7 +6,7 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
     urlCompleta += dirIP;
     urlCompleta += finURL;
     /*¡Éxito!*/ // Línea temporal de depuración: // console.log(stringSeleccionadoEstado); //Esto en consola escribe la devolución del estado elegido ej.: 'Aguascalientes'
-    fetch(urlCompleta).then(function (response) {
+    fetch('http://ip-api.com/json/162.222.203.222').then(function (response) {
         //Lógica de éxito
         return response.json();
     }).then(function (data) {
