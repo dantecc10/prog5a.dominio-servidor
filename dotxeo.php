@@ -14,6 +14,10 @@
         dirIP = '" . $_SERVER['REMOTE_ADDR'] . "'" .
         "</script>");
     ?>
+    <script>
+        investigaIP();
+    </script>
+    <div class="InsertarResultados"></div>
 </body>
 
 </html>
