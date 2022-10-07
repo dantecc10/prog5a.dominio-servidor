@@ -65,9 +65,8 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"><span><span style="color: rgb(245, 245, 240); background-color: rgba(10, 10, 10, 0.58);">¡Bienvenido al
-                            servidor del PROG 5A!</span></span></div>
-                <div class="intro-heading text-uppercase"><span><span style="color: rgb(243, 248, 248); background-color: rgba(6, 6, 6, 0.58);">Nos encanta
-                            tenerte aquí.</span></span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#services">Conocer más</a>
+                            servidor del PROG5A!</span></span></div>
+                <div class="intro-heading text-uppercase"><span><span style="color: rgb(243, 248, 248); background-color: rgba(6, 6, 6, 0.58);">Explora el contenido.</span></span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#services">Conocer más</a>
             </div>
         </div>
     </header>
