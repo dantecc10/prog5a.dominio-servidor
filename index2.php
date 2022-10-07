@@ -158,16 +158,6 @@
             </div>
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
                     <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/5-thumbnail.jpg">
                 </a>
                 <div class="portfolio-caption">
@@ -185,16 +175,7 @@
                     <p class="text-muted">Photography</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal7" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="IMG/Equipos/7.jpeg">
@@ -204,7 +185,7 @@
                     <p class="text-muted">Alexander Sandoval Lobo</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal8" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="IMG/Equipos/8.jpeg">
@@ -214,16 +195,7 @@
                     <p class="text-muted">Oliver Jack Cruz Méndez</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div>
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal9" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="IMG/Equipos/9.jpeg">
@@ -231,15 +203,6 @@
                 <div class="portfolio-caption">
                     <h4>Equipo 9</h4>
                     <p class="text-muted">Melanie Aidee Cruz López</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Equipo 10</h4>
                 </div>
             </div>
         </div>
