@@ -226,7 +226,7 @@
                     </div>
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="IMG/Equipos/9.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/9.jpeg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 9</h4>
