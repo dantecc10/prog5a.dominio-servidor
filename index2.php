@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>PROG5A - Inicio</title>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Dante Castelán Carpinteyro: Web dedicada a publicación de proyectos y código personal.">
+    <meta name="author" content="Dante Castelán Carpinteyro">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/Formulario.css">
     <link rel="stylesheet" type="text/css" href="CSS/ReglasExtra.css">
+
+    <link rel="shortcut icon" href="IMG/Logo-PROG5A.png" type="image/x-icon">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
@@ -132,7 +139,7 @@
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal3" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/3-thumbnail.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/3.jpg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 3</h4>
@@ -190,7 +197,7 @@
                     </div>
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/5-thumbnail.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/7.jpg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 7</h4>
@@ -200,11 +207,11 @@
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/8.jpg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 8</h4>
-                    <p class="text-muted">Photography</p>
+                    <p class="text-muted">Oliver Jack Cruz Méndez</p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
@@ -219,7 +226,7 @@
                     </div>
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/5-thumbnail.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/9.jpg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 9</h4>
