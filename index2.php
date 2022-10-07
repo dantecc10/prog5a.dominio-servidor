@@ -139,7 +139,7 @@
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal3" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="IMG/Equipos/3.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/3.jpeg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 3</h4>
@@ -197,7 +197,7 @@
                     </div>
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="IMG/Equipos/7.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/7.jpeg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 7</h4>
@@ -207,7 +207,7 @@
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="IMG/Equipos/8.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/8.jpeg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 8</h4>
