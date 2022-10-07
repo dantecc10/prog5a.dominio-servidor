@@ -10,11 +10,43 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+    <?php
+    include "Scripts PHP/ConexiónUsuarios.php";
+    include "Scripts PHP/InicioSesión.php";
+    ?>
+    <div id="DivInicioSesión" class="modal">
+        <form class="modal-content animate myForm" action="" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('DivInicioSesión').style.display='none'" class="CerrarCuadro" title="Close Modal">×</span>
+                <img src="IMG/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="Usuario"><b>Usuario</b></label>
+                <input type="text" placeholder="usuario@prog5a*" name="Usuario" required="">
+                <br>
+                <label for="Contraseña"><b>Contraseña</b></label>
+                <input type="password" placeholder="Contraseña (@prog5a!!)*" name="Contraseña" required="">
+
+                <input type="hidden" name="latitude" value="">
+                <input type="hidden" name="longitude" value="">
+
+                <input type="submit" name="InicioSesión" value="Iniciar sesión" class="IniciarSesión DecoradoBotón">
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Recordarme
+                </label>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('DivInicioSesión').style.display='none'" class="BotónCancelar DecoradoBotón">Cancel</button>
+                <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
+            </div>
+        </form>
+    </div>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">PROG5A</a><button data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
-                    class="fa fa-bars"></i></button>
+        <div class="container"><a class="navbar-brand" href="#page-top">PROG5A</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
@@ -29,13 +61,10 @@
     <header class="masthead" style="background-image: url(assets/img/52894.jpg);">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in"><span><span
-                            style="color: rgb(245, 245, 240); background-color: rgba(10, 10, 10, 0.58);">¡Bienvenido al
+                <div class="intro-lead-in"><span><span style="color: rgb(245, 245, 240); background-color: rgba(10, 10, 10, 0.58);">¡Bienvenido al
                             servidor del PROG 5A!</span></span></div>
-                <div class="intro-heading text-uppercase"><span><span
-                            style="color: rgb(243, 248, 248); background-color: rgba(6, 6, 6, 0.58);">Nos encanta
-                            tenerte aquí.</span></span></div><a class="btn btn-primary btn-xl text-uppercase"
-                    role="button" href="#services">Conocer más</a>
+                <div class="intro-heading text-uppercase"><span><span style="color: rgb(243, 248, 248); background-color: rgba(6, 6, 6, 0.58);">Nos encanta
+                            tenerte aquí.</span></span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#services">Conocer más</a>
             </div>
         </div>
     </header>
@@ -49,23 +78,17 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading">E-Commerce</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading">Responsive Design</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading">Web Security</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -84,8 +107,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal1"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal1" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/1-thumbnail.jpg">
@@ -95,8 +117,7 @@
                     <p class="text-muted">Dante Castelán Carpinteyro</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal2"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal2" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/2-thumbnail.jpg">
@@ -106,8 +127,7 @@
                     <p class="text-muted">Graphic Design</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal3"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal3" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/3-thumbnail.jpg">
@@ -117,8 +137,7 @@
                     <p class="text-muted">Daniela Guzmán Barrientos</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal4"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal4" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/4-thumbnail.jpg">
@@ -128,8 +147,7 @@
                     <p class="text-muted">Branding</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div>
@@ -148,8 +166,7 @@
                     <p class="text-muted">Website Design</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg">
@@ -159,8 +176,7 @@
                     <p class="text-muted">Photography</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div>
@@ -179,8 +195,7 @@
                     <p class="text-muted">Alexander Sandoval Lobo</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg">
@@ -190,8 +205,7 @@
                     <p class="text-muted">Photography</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal5" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div>
@@ -210,8 +224,7 @@
                     <p class="text-muted">Melanie Aidee Cruz López</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6"
-                    data-bs-toggle="modal">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal6" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
                     </div><img class="img-fluid" src="assets/img/portfolio/6-thumbnail.jpg">
@@ -241,10 +254,8 @@
                         <h4>Dante</h4>
                         <p class="text-muted">Castelán Carpinteyro</p>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="https://www.facebook.com/DanteCC10.4T"><i
-                                        class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i
-                                        class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/DanteCC10.4T"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -254,11 +265,8 @@
                         <h4>Jeremy</h4>
                         <p class="text-muted">Hernández Balderas</p>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a
-                                    href="https://www.facebook.com/profile.php?id=100022690430842"><i
-                                        class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i
-                                        class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100022690430842"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -268,10 +276,8 @@
                         <h4>Melanie Aidee</h4>
                         <p class="text-muted">Cruz López</p>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="https://www.facebook.com/mel.cruzlopez.54"><i
-                                        class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i
-                                        class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/mel.cruzlopez.54"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -282,17 +288,14 @@
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto"
-                            src="assets/img/clients/creative-market.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto"
-                            src="assets/img/clients/designmodo.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto"
-                            src="assets/img/clients/envato.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto"
-                            src="assets/img/clients/themeforest.jpg"></a></div>
+                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/creative-market.jpg"></a></div>
+                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/designmodo.jpg"></a></div>
+                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/envato.jpg"></a></div>
+                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/themeforest.jpg"></a></div>
             </div>
         </div>
     </section>
+    <!-- Sección de contacto
     <section id="contact" style="background-image:url('assets/img/map-image.png');">
         <div class="container">
             <div class="row">
@@ -306,25 +309,16 @@
                     <form id="contactForm" name="contactForm" novalidate="novalidate">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><input class="form-control" type="text" id="name"
-                                        placeholder="Your Name *" required=""><small
-                                        class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group mb-3"><input class="form-control" type="email" id="email"
-                                        placeholder="Your Email *" required=""><small
-                                        class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group mb-3"><input class="form-control" type="tel"
-                                        placeholder="Your Phone *" required=""><small
-                                        class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><textarea class="form-control" id="message"
-                                        placeholder="Your Message *" required=""></textarea><small
-                                        class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase"
-                                    id="sendMessageButton" type="submit">Send Message</button>
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -332,10 +326,11 @@
             </div>
         </div>
     </section>
+    !-->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© Brand 2022</span></div>
+                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© 2022 PROG5A - CECyTE Chignahuapan</span></div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -360,8 +355,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/1-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -370,8 +364,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
@@ -387,8 +380,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/2-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -397,8 +389,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
@@ -414,8 +405,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/3-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -424,8 +414,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
@@ -441,8 +430,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -451,8 +439,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
@@ -468,8 +455,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -478,8 +464,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
@@ -495,8 +480,7 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/portfolio/6-full.jpg">
+                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6-full.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -505,8 +489,7 @@
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
-                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i
-                                        class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
                     </div>
