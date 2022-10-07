@@ -546,9 +546,9 @@
             </div>
         </div>
     </div>
-    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal6">
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.min.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
