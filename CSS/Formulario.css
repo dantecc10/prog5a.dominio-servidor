@@ -218,7 +218,7 @@ span.psw {
     }
 
     /* The Modal (background) */
-    .modal {
+    .modal#DivInicioSesión {
         display: none;
         /* Hidden by default */
         position: fixed;
