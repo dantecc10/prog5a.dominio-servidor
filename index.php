@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/Formulario.css">
     <link rel="stylesheet" type="text/css" href="CSS/ReglasExtra.css">
 
-    <link rel="shortcut icon" href="IMG/Logo-PROG5A.png" type="image/x-icon">
+    <link rel="shortcut icon" href="IMG/Logo-PROG5A.jpg" type="image/x-icon">
 
     <link rel="preload" as="image" href="IMG/Equipos/1.jpg">
     <link rel="preload" as="image" href="IMG/Equipos/2.jpg">
