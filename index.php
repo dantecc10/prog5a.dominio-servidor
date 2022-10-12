@@ -133,7 +133,7 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 2</h4>
-                    <p class="text-muted">Graphic Design</p>
+                    <p class="text-muted">Agustín Gómez Cruz</p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal3" data-bs-toggle="modal">
