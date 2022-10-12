@@ -16,6 +16,16 @@
     <link rel="stylesheet" type="text/css" href="CSS/ReglasExtra.css">
 
     <link rel="shortcut icon" href="IMG/Logo-PROG5A.png" type="image/x-icon">
+
+    <link rel="preload" as="image" href="IMG/Equipos/1.jpg">
+    <link rel="preload" as="image" href="IMG/Equipos/2.jpg">
+    <link rel="preload" as="image" href="IMG/Equipos/3.jpeg">
+    <link rel="preload" as="image" href="IMG/Equipos/4.jpg">
+    <link rel="preload" as="image" href="IMG/Equipos/5.jpg">
+    <link rel="preload" as="image" href="IMG/Equipos/6.jpg">
+    <link rel="preload" as="image" href="IMG/Equipos/7.jpeg">
+    <link rel="preload" as="image" href="IMG/Equipos/8.jpeg">
+    <link rel="preload" as="image" href="IMG/Equipos/9.jpeg">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
@@ -328,15 +338,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/1.jpg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/1.jpg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -353,15 +360,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/2.jpg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/2.jpg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -378,15 +382,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/3.jpeg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/3.jpeg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -403,15 +404,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/4.jpg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/4.jpg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -428,15 +426,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/5.jpg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/5.jpg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -453,15 +448,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/6.jpg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/6.jpg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -479,15 +471,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/7.jpeg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/7.jpeg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -504,15 +493,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/8.jpeg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/8.jpeg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
@@ -529,15 +515,12 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/9.jpeg">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/9.jpeg">
+                                <p>Descripción del sitio</p>
                                 <ul class="list-unstyled">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Cliente: </li>
+                                    <li>Categoría: </li>
                                 </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
                             </div>
                         </div>
