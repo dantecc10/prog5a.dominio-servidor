@@ -129,7 +129,7 @@
             <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal2" data-bs-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="IMG/EQUIPOS/2.jpg">
+                    </div><img class="img-fluid" src="IMG/Equipos/2.jpg">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Equipo 2</h4>
