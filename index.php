@@ -344,7 +344,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -366,7 +366,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -388,7 +388,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -410,7 +410,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -432,7 +432,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -454,7 +454,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -477,7 +477,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -499,7 +499,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -521,7 +521,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button class="IniciarSesión DecoradoBotón">Visitar</button><button class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
