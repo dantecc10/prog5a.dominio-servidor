@@ -238,7 +238,7 @@
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="https://www.facebook.com/DanteCC10.4T"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100022690430842"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="https://www.facebook.com/mel.cruzlopez.54"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="https://twitter.com/dantecc10"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -317,7 +317,7 @@
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
