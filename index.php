@@ -267,6 +267,9 @@
             </div>
         </div>
     </section>
+
+    <!--
+    
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -277,6 +280,7 @@
             </div>
         </div>
     </section>
+    !-->
     <!-- Sección de contacto
     <section id="contact" style="background-image:url('assets/img/map-image.png');">
         <div class="container">
