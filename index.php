@@ -349,7 +349,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV1');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV1');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -371,7 +371,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV2');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV2');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV3');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV3');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -415,7 +415,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV4');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV4');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -437,7 +437,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV5');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV5');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -459,7 +459,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV6');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV6');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -482,7 +482,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV7');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV7');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -504,7 +504,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV8');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV8');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
@@ -526,7 +526,7 @@
                                     <li>Fecha: octubre del 2022</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
-                                </ul><button onclick="NuevaPestaña('EV9');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button<button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
+                                </ul><button onclick="NuevaPestaña('EV9');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
                             </div>
                         </div>
                     </div>
