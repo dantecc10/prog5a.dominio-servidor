@@ -219,8 +219,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase">About</h2>
-                    <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="text-uppercase">Acerca de</h2>
+                    <h3 class="text-muted section-subheading">Los siguientes estudiantes colaboraron en la creación de esta página principal para <i><b>prog5a.com</b></i>.</h3>
                 </div>
             </div>
             <div class="row"></div>
