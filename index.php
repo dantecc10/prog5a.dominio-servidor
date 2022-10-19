@@ -100,7 +100,7 @@
             <div class="row text-center">
                 <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-database fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading">Bases de datos</h4>
-                    <p class="text-muted">Aplicación de bases de datos para la administraciónd en información en sitios web.</p>
+                    <p class="text-muted">Aplicación de bases de datos para la administración de información en sitios web.</p>
                 </div>
                 <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading">Diseño responsivo</h4>
