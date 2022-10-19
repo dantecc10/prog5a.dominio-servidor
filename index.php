@@ -94,24 +94,21 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase section-heading">Servicios</h2>
                     <h3 class="text-muted section-subheading">El grupo desarrolla programación web con las siguientes
-                        características.</h3>
+                        características:</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-database fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading">Bases de datos</h4>
+                    <p class="text-muted">Aplicación de bases de datos para la administraciónd en información en sitios web.</p>
                 </div>
                 <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="section-heading">Diseño responsivo</h4>
+                    <p class="text-muted">Adaptación de los estilos de los sitios web a las dimensiones del dispositivo.</p>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-server fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading">Servidor seguro</h4>
+                    <p class="text-muted">Somos propietarios del dominio <i><b><a href="https://prog5a.com">prog5a.com</a></b></i>, y tienen certificados de seguridad.</p>
                 </div>
             </div>
         </div>
