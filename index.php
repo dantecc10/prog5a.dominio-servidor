@@ -220,7 +220,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase">Acerca de</h2>
-                    <h3 class="text-muted section-subheading">Los siguientes estudiantes colaboraron en la creación de esta página principal para <i><b>prog5a.com</b></i>.</h3>
+                    <h3 class="text-muted section-subheading">Sitio y servidor del grupo de Programación, 5° semestre, grupo "A", del Colegio de Estudios Científicos y Tecnológicos del Estado de Puebla, Plantel Chignahuapan. Alojado en <i><b>prog5a.com</b></i>.</h3>
                 </div>
             </div>
             <div class="row"></div>
@@ -229,6 +229,10 @@
     <section class="bg-light" id="team">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase">Colaboradores</h2>
+                    <h3 class="text-muted section-subheading">Los siguientes estudiantes colaboraron en la creación de esta página principal para <i><b>prog5a.com</b></i>.</h3>
+                </div>
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/DANTE-CC.jpg">
                         <h4>Dante</h4>
