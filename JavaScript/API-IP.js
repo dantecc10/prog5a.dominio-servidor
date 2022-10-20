@@ -16,18 +16,9 @@ function investigaIP(urlBase, finURL, dirIP) { //Muestra la información a trav�
 
         for (var i = 1; i != data.length; i++) {
 
-<<<<<<< HEAD
-                console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]);
-                contador++;
-            }
-            else {
-                console.log("Diputad@ ", data[i]["número"], ".- ", data[i]["nombre"], " ", data[i]["apellidoPaterno"], " ", data[i]["apellidoMaterno"], " del Estado de ", data[i]["entidad"], " que representa al (a la) ", data[i]["distrito_circunscripcion"], "que representa a ", data[i]["partido"]) + " no aplica para el filtro de Estados";
-            }
-=======
             document.getElementById("InsertarResultados").innerHTML += ("<tr>" + "<td>" + data[i]["status"] + "</td>" + "<td>" + data[i]["message"] + "</td>" + "<td>" + data[i]["country"] + "</td>" + "<td>" + data[i]["countryCode"] + "</td>" + "<td>" + data[i]["region"] + "</td>" + "<td>" + data[i]["regionName"] + "</td>" + "<td>" + data[i]["city"] + "</td>" + "<td>" + data[i]["zip"] + "</td>" + "<td>" + data[i]["lat"] + "</td>" + "<td>" + data[i]["lon"] + "</td>" + "<td>" + data[i]["timezone"] + "</td>" + "<td>" + data[i]["isp"] + "</td>" + "<td>" + data[i]["org"] + "</td>" + "<td>" + data[i]["query"] + "</td></tr>");
             console.log("IP: ", dirIP, "\nStatus: ", data[i]["status"], "\nMessage", data[i]["message"], " \nCountry", data[i]["country"], " \nCountryCode", data[i]["countryCode"], "\nRegion", data[i]["region"], "\nNombre de region", data[i]["regionName"], "\nCiudad", data[i]["city"], "\nZip", data[i]["zip"], "\nLatitud", data[i]["lat"], "\nLongitud", data[i]["lon"], "\nZona horaria", data[i]["timezone"], "\nISP", data[i]["isp"], "\nORG", data[i]["org"], "\nQuery", data[i]["query"])
             contador++;
->>>>>>> 71fab0e67da4e961139a6d37bcac02d06d75e030
         }
         document.getElementById("InsertarResultados").innerHTML += ("</table>");
     }).catch(function (error) {
