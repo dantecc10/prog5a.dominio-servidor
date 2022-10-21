@@ -31,6 +31,7 @@
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
     <script src="JavaScript/EnlacesEquipos.js"></script>
     <?php
+    // Soy DanTechnology
     include "Scripts PHP/ConexiónUsuarios.php";
     include "Scripts PHP/InicioSesión.php";
     ?>
