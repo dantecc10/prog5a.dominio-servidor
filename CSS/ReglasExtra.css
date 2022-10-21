@@ -5,3 +5,67 @@
 .modal {
     z-index: 1051;
 }
+
+div#RedesSociales {
+    align-items: center;
+}
+
+/*Redes sociales*/
+img.RedSocial {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+img.RedSocial#Facebook:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
+
+img.RedSocial#WhatsApp:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+    ;
+}
+
+img.RedSocial#Messenger:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
+
+img.RedSocial#YouTube,
+img.RedSocial#GitHub,
+img.RedSocial#Facebook {
+    border-radius: 10px;
+}
+
+img.RedSocial#YouTube:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+    ;
+    border-radius: 10px;
+}
+
+img.RedSocial#Telegram:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
+
+img.RedSocial#Twitter:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
+
+img.RedSocial#GitHub:hover {
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
