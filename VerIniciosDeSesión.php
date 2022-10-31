@@ -2,10 +2,11 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta name="description" content="PROG5A: Web dedicada a proyectos del grupo de programación 5A del CECyTE Plantel Chignahuapan.">
+    <meta name="author" content="Dante Castelán Carpinteyro, Jeremy Hernández Balderas, Melanie Aidee Cruz López">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="IMG/Logo-PROG5A.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link id="EtiquetaCSS" rel="Stylesheet" href="CSS/CSS GLOBAL - TEMA INSTITUCIONAL PUEBLA.css" Type="text/css" MEDIA="screen">
     <!--<link rel="Stylesheet" href="CSS/Formulario.css" Type="text/css" MEDIA="screen">-->
     <!--<link id="Oculta/Muestra" rel="Stylesheet" href="../CSS/CSS OCULTAMIENTO.css" Type="text/css" MEDIA="screen">-->
