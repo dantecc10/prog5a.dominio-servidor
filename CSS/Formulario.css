@@ -15,7 +15,7 @@ input[type=password] {
 }
 
 input[type=submit] {
-    background-color: #fec810;
+    background-color: #e5bc34;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -28,7 +28,7 @@ input[type=submit] {
 /*
 */
 .IniciarSesión {
-    background-color: #fec810;
+    background-color: #e5bc34;
 }
 
 .DecoradoBotón {
@@ -165,7 +165,7 @@ span.psw {
     }
 
     input[type=submit] {
-        background-color: #fec810;
+        background-color: #e5bc34;
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
@@ -176,7 +176,7 @@ span.psw {
 
     /* Set a style for all buttons */
     button {
-        background-color: #fec810;
+        background-color: #e5bc34;
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
