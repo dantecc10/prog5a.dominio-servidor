@@ -75,7 +75,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Colaboradores</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                    <li class="nav-item"><a onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón nav-link" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</a></li>
+                    <li class="nav-item"><a onclick="document.getElementById('DivInicioSesión').style.display='block'" class="nav-link" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</a></li>
                 </ul>
             </div>
         </div>
