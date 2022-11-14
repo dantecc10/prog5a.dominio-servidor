@@ -65,7 +65,7 @@
                 <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
             </div>
         </form>
-    </div> 
+    </div>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#page-top">PROG5A</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -75,7 +75,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Colaboradores</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                    <li class="nav-item"><button onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</button></li>
+                    <li class="nav-item"><a onclick="document.getElementById('DivInicioSesión').style.display='block'" class="IniciarSesión DecoradoBotón nav-link" style="width:auto;" id="BotónAbreInicioSesión">Iniciar sesión</a></li>
                 </ul>
             </div>
         </div>
