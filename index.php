@@ -65,7 +65,7 @@
                 <span class="psw">¿Olvidaste tu <a href="#">contraseña</a>?</span>
             </div>
         </form>
-    </div> 
+    </div>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#page-top">PROG5A</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -232,7 +232,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase">Colaboradores</h2>
-                    <h3 class="text-muted section-subheading">Los siguientes estudiantes colaboraron en la creación de esta página principal para <i><b>prog5a.com</b></i>.</h3>
+                    <h3 class="text-muted section-subheading">Los siguientes estudiantes colaboraron activamente en la creación de esta página principal para <i><b>prog5a.com</b></i>.</h3>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/DANTE-CC.jpg">
@@ -344,11 +344,11 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <h2>Equipo</h2>
-                                <p class="text-muted item-intro">Subtítulo modificable.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/1.jpg">
-                                <p>Descripción del sitio</p>
+                                <h2>Nerd Pizza</h2>
+                                <p class="text-muted item-intro"><b>Pizzería</b>.</p><img class="img-fluid d-block mx-auto" src="IMG/Equipos/1.jpg">
+                                <p>Proyecto de pizzería desarrollado por el equipo 1.</p>
                                 <ul class="list-unstyled">
-                                    <li>Fecha: octubre del 2022</li>
+                                    <li>Fecha| 121</li>
                                     <li>Cliente: </li>
                                     <li>Categoría: </li>
                                 </ul><button onclick="NuevaPestaña('EV1');" class="IniciarSesión DecoradoBotón">Visitar</button><button onclick="NuevaPestaña('Halo');" class="IniciarSesión DecoradoBotón">Administrar</button><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Cerrar</span></button>
