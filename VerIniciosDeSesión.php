@@ -12,7 +12,15 @@
     <!--<link id="Oculta/Muestra" rel="Stylesheet" href="../CSS/CSS OCULTAMIENTO.css" Type="text/css" MEDIA="screen">-->
 
     <title>Database Page</title>
-</head>
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8SMX1SM0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8SMX1SM0Z');
+</script>
 
 <body>
     <table class="InsertarResultados Examen ">

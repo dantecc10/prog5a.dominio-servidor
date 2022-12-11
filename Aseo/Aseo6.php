@@ -20,7 +20,15 @@ if (empty($_SESSION['ID'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROG5A - Equipo 6 de aseo</title>
 
-</head>
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8SMX1SM0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8SMX1SM0Z');
+</script>
 
 <body onload="getLocation();">
     <script src="../JavaScript/CambiarTema.js"></script>

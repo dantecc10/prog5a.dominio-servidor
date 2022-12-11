@@ -12,7 +12,15 @@
     <script src="JavaScript/Derivadas_simples.js"></script>
 
     <title>Campo de pruebas - PROG5A</title>
-</head>
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8SMX1SM0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8SMX1SM0Z');
+</script>
 
 <body>
     <script src="JavaScript/CambiarTema.js"></script>

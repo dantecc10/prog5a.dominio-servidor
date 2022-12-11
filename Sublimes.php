@@ -26,7 +26,15 @@
     <link rel="preload" as="image" href="IMG/Equipos/7.jpeg">
     <link rel="preload" as="image" href="IMG/Equipos/8.jpeg">
     <link rel="preload" as="image" href="IMG/Equipos/9.jpeg">
-</head>
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8SMX1SM0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8SMX1SM0Z');
+</script>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
     <script src="JavaScript/EnlacesEquipos.js"></script>
